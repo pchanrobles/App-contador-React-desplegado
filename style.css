@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(20, 14, 56);
+    color: snow;
+    text-align: center;
+    padding: 3rem;
+}
+
+.minus{
+color: rgb(190, 22, 22)
+
+}
+
+.more{
+color: rgb(23, 175, 31);
+}
+
+button{
+    margin: 0px 0.5rem;
+
+}
+.mayor{
+    background-color: seagreen;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+.menor{
+    background-color: tomato;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    font-size: 17px;
+}

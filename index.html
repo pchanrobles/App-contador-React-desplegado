@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- mis meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- mi meta tags PWA -->
+     <meta name='theme-color' content='rgb(20, 14, 56)'>
+     <meta name='MobileOptimized' content='width'>
+     <meta name='HandheldFriendly' content='true'>
+
+     <meta name='apple-mobile-web-app-capable' content='yes'>
+     <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+<!-- icons -->
+<link rel="shortcut icon" href="./favicon.png">
+<link rel="apple-touch-icon" href="./favicon.png">
+<link rel="apple-touch-icon-startup-image" href="./favicon.png">
+    
+<!-- manifest -->
+<link rel="manifest" href="./manifest.json">
+     <!-- titulo-->
+    <title>Proyecto #1 React</title>
+     <!-- mis estilos -->
+    <link rel="stylesheet" href="./style.css">
+     <!-- scripts -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+
+    <div id="root"> </div>
+
+
+    <script type="text/babel" src="./components/Contador.js"></script>
+    <script type="text/babel" src="./index.js">   </script>
+    <script src="./register.js"></script>
+    <script src="./sw.js"></script>
+
+</body>
+
+</html>
